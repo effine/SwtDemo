@@ -18,9 +18,7 @@ public class ParsePropertiesFile extends NLS {
 	}
 
 	public static void main(String[] args) {
-
 		System.out.println(FILENAME + "     " + USERNAME);
-
 	}
 
 }
