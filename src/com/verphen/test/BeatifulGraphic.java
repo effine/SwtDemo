@@ -11,7 +11,9 @@ public class BeatifulGraphic {
 	public static void main(String[] args) {
 		final Display display = new Display();
 		final Shell shell = new Shell(display, SWT.NO_TRIM);
-		//
+
+		// -------------code start ----------------
+
 		Region region = new Region();
 		region.add(getBackRect1());
 		region.add(getBackRect2());
